@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: beige;
+}
+.App {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  /* margin: 30px auto; */
+  flex-direction: column;
+  gap: 20px;
+}
