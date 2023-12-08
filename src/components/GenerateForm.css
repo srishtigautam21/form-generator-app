@@ -1,14 +1,15 @@
-.formWrapper {
+.newFormWrapper {
   display: flex;
   flex-direction: column;
   gap: 15px;
   width: max-content;
+  height: max-content;
   padding: 22px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 30px 0 rgb(228, 227, 227);
   border-radius: 10px;
 }
-.formWrapper input,
+.newFormWrapper input,
 select,
 textarea {
   width: 100%;
@@ -16,15 +17,18 @@ textarea {
   margin: 10px 10px 0 0px;
   border: 1px solid gray;
 }
-input[type="checkbox"] {
-  width: auto;
-}
-.formWrapper input,
+.newFormWrapper input,
 select,
 textarea:focus {
   outline: 0;
 }
-.generate-btn {
+input[type="checkbox"] {
+  width: auto;
+}
+input[type="radio"] {
+  width: auto;
+}
+.submit-btn {
   background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
@@ -33,6 +37,6 @@ textarea:focus {
   font-size: 15px;
   cursor: pointer;
 }
-.generate-btn:hover {
+.submit-btn:hover {
   background-color: #45a049;
 }
