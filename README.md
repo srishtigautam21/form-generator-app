@@ -1,6 +1,7 @@
 # Form Generator
 
-This project has been made using ReactJs, React-Context, HTML, CSS, and Javascript [Form Generator App](https://form-generator-app.netlify.app/).
+This project has been made using ReactJs, React-Context, HTML, CSS, and Javascript 
+Live Link: [Form Generator App](https://form-generator-app.netlify.app/).
 
 ## Features
 
